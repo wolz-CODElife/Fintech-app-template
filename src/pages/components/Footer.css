@@ -1,0 +1,25 @@
+.footer {
+    position: fixed;
+    bottom: 0px;
+    background: #ffffff;
+    border: 1px solid #E6E6E6;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 20px;
+    margin: 0px;
+}
+.footer button {
+    background: none;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    color: #9998A5;
+}
+.footer button.active {
+    color: black;
+}
+.footer button svg {
+    width: 25px;
+    height: 25px;
+}

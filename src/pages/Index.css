@@ -1,0 +1,72 @@
+.page {
+    margin: 0px 20px;
+}
+.page > .header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 0px;
+}
+.page > .header .tab:nth-child(1) {
+    border-radius: 10px 15px 0px 0px;
+}
+.page > .header .tab:nth-child(2) {
+    border-radius: 10px 10px 0px 0px;
+}
+.page > .header .tab:nth-child(3) {
+    border-radius: 15px 10px 0px 0px;
+}
+.page > .header .tab {
+    text-align: center;
+    padding: 5px 0px;
+}
+.page .content {
+    margin-top: -1px;
+}
+.page .content .header {
+    border-radius: 0px 0px 10px 10px;
+    padding: 30px 20px;
+    color: #ffffff;
+}
+.page .content .header p {
+    font-size: 13px;
+}
+.page .content .body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.page .content .body h1 {
+    margin: 15px 0px;
+    font-size: 25px;
+}
+.page .content .body p {
+    margin: 0px 20px;
+    width: 100%;
+    max-width: 600px;
+    font-size: 11px;
+}
+.page .content .body img {
+    object-fit: contain;
+    width: 75%;
+    max-width: 400px;
+    margin: 10px 0px;
+    max-height: 145px;
+}
+.page .content > button {
+    width: 100%;
+    max-width: 400px;
+    margin: 0px auto;
+    padding: 15px 0px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
